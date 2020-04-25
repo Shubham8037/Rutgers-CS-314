@@ -1,0 +1,15 @@
+states: q0 q1 q2 q3
+symbols: a b c
+begin_rules
+q0 -> q1 on a
+q1 -> q2 on b
+q0 -> q2 on c
+q1 -> q1 on a
+q0 -> q3 on b
+end_rules
+start: q0
+final: q2 q3
+ab
+cba
+aaa
+aaab

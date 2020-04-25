@@ -1,0 +1,17 @@
+states: q0 q1
+symbols: 0 1
+begin_rules
+q0 -> q0 on 1
+q0 -> q1 on 0
+q1 -> q0 on 1
+q1 -> q1 on 0
+end_rules
+start: q0
+final: q1
+0
+1
+000
+1010
+0101
+11001100110
+01011010101
