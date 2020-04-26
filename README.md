@@ -1,5 +1,5 @@
 # Rutgers CS 314
-CS 314 PRIN PROG Languages at Rutgers University
+CS 314 Principles of Programming Languages at Rutgers University
 
 Professor Jeffrey Ames
 
